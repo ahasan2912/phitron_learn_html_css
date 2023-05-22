@@ -2,6 +2,7 @@ body{
     padding: 0px;
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 .main{
     width: 100%;
@@ -12,10 +13,10 @@ nav{
     width: 100%;
     height: 75px;
     background-color: #e9e2e2;
-    position: fixed;
     display: flex;
     justify-content: space-between;
     padding: 10px 380px;
+    position: fixed;
 }
 .logo{
     width: 40%;
@@ -71,7 +72,6 @@ nav{
     top: -15px;
     left: 545px;
 }
-
 
 .text-img{
     position: absolute;
@@ -255,7 +255,7 @@ nav{
     position: relative;
     top: 1180px;
     left: 0px;
-    margin-left: 400px
+    margin-left: 400px;
     
 }
 .pic2 img{
@@ -265,6 +265,7 @@ nav{
     margin-top: 60px;
     margin-left: 450px;
 }
+/*---------------------------------------------------------------Ready---------------------------------------------------------------------*/
 .ready{
     background-color: #583cea;
     height: 270px;
@@ -383,7 +384,7 @@ nav{
     margin-top: -20px;
 }
 .data_structure{
-   margin-left: 60%;
+   margin-left: 65%;
    margin-top: -11%;
 }
 .data_structure h1{
@@ -400,12 +401,12 @@ nav{
     margin-left: -22%;
 }
 .path2 img{
-    margin-left: -240px;
+    margin-left: -250px;
     margin-top: -12px;
 }
 .algorithms{
     margin-top: -11%;
-    margin-left: 15px;
+    margin-left: 60px;
 }
 .algorithms h1{
     margin-left: 14%;
@@ -420,6 +421,9 @@ nav{
 .algo_bakgrnd{
     background: rgba(239, 83, 80, 0.1);
 }
+.opp{
+    margin-left: 63%;
+}
 .opp_bakgrnd{
     background: rgba(95, 85, 174, 0.1);;
 }
@@ -433,8 +437,8 @@ nav{
     margin-bottom: -55px;
 }
 .cloud_computing{
-    margin-top: -125px;
-    margin-left: 7px;
+    margin-top: -140px;
+    margin-left: 50px;
 }
 .cloud_pading{
     width: 490px;
@@ -452,6 +456,7 @@ nav{
     background: rgba(239, 83, 80, 0.1);
 }
 .problem_pading{
+    width: 520px;
     border: 2px solid rgb(239, 83, 80);;
 }
 
@@ -521,28 +526,64 @@ nav{
     margin-top: 8%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*For Video*/
 video{
     background-color: #727272;
     width: 100%;
     height: 100vh;
     text-align: center;
+}
+.botom{
+    position: relative;
+}
+.colum3{
+    width: 100%;
+    height: 450px;
+    background-color: black;
+    display: flex;
+    position: absolute;
+    top: 4500px;
+}
+.colum3 ul{
+    margin-left: 250px;
+}
+.colum3 ul li{
+    list-style: none;
+    color: #fff;
+    font-size: 20px;
+}
+.colum3 ul li a{
+    color: #fff;
+    text-decoration: none;
+
+}
+.ulcolum{
+    margin-top: 53px;
+}
+.ulcolum li{
+    margin-top: 25px;
+}
+.colum3 ul h3{
+    color: #fff;
+    font-size: 25px;
+}
+.picture_btm{
+    position: absolute;
+    top: 4820px;
+    left: 520px;
+}
+.ulcolum1{
+    margin-top: 52px;
+}
+.ulcolum1 li{
+    margin-top: 10px;
+}
+.ulcolum2{
+    margin-top: 52px;
+}
+.ulcolum2 li{
+    margin-top: 20px;
+}
+.ulcolum2 li i{
+    margin-left: 10px;
 }
